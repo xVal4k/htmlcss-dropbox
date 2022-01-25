@@ -5,5 +5,77 @@
 }
 
 html {
+    font-size: 20px;
     font-family: 'Dongle', sans-serif;
+}
+
+header {
+    height: 3rem;
+    line-height: 3rem;
+    overflow: hidden;
+    font-weight: 500;
+}
+
+ nav,
+ .column {
+    display: inline-block;
+} 
+
+.hd-clrfx::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo {
+    height: 3rem;
+    padding-left: 1rem;
+    width: calc(10% - 1rem);
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+.logo,
+.hd-clrfx {
+    float: left;
+}
+
+.hd-clrfx {
+    width: 85%;
+    height: 3rem;
+}
+
+.column a {
+    display: inline-block;
+    text-align: center;  
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+.hd-left {
+    float: left;
+}
+
+.hd-right {
+    float: right;
+}
+
+.hd-butt {
+    float: right;
+    height: 5rem;
+    width: calc(5% - 1rem);
+    padding-right: 1rem;
+    text-align: right;    
+}
+
+.btn {
+    background-color: rgb(24, 117, 255);
+    color:white;
+    padding: 1px .8rem;
+    text-decoration: none;
+}
+
+header a {
+    text-decoration: none;
 }
