@@ -291,3 +291,28 @@ clear: both;
     text-align: center;
     width: 100%;
 }
+
+/* sezione 3 */
+
+.sezione3 {
+    margin: 200px 0;
+    width: 100%;
+    height: auto;
+    word-spacing: 2px;
+}
+
+.sez3-left {
+    float: left;
+    width: 55%;
+}
+
+.sez3-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.sez3-right {
+    float: right;
+    width: calc(40% - 2rem);
+    margin-top: 2rem;
+}
