@@ -162,6 +162,7 @@ clear: both;
 
 .sezione2 {
     margin-top: 200px;
+    margin-bottom: 200px;
     width: 100%;
     height: 1000px;
 }
@@ -295,13 +296,14 @@ clear: both;
 /* sezione 3 */
 
 .sezione3 {
-    margin: 200px 0;
     width: 100%;
     height: auto;
     word-spacing: 2px;
+    margin-top: 200px;
 }
 
 .sez3-left {
+    margin-top: 200px;
     float: left;
     width: 55%;
 }
@@ -314,5 +316,19 @@ clear: both;
 .sez3-right {
     float: right;
     width: calc(40% - 2rem);
+    margin-top: 240px;
+}
+
+.sez3-text {
     margin-top: 2rem;
+    line-height: 1.5rem;
+}
+
+.sezione3 .white-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: solid 2px black;
+    padding: .2rem 1rem;
+    margin-top: 1.5rem;
 }
