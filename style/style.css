@@ -172,12 +172,12 @@ clear: both;
     padding-right: 2rem;  
 }
 
-.sezione2 h1 {
+.sezione2 h2 {
     font-size: 60px;
     padding-bottom: 30px;
 }
 
-.sidebar {
+.col {
     float: left;
     width: calc(100% / 3 - 3rem);
     margin: 0 1.5rem;
@@ -211,6 +211,10 @@ clear: both;
     line-height: 2rem;
     margin-top: 2rem;
     border-bottom: none;
+}
+
+h3 {
+    font-size: 32px;
 }
 
 .sezione2 p {
@@ -331,4 +335,30 @@ clear: both;
     border: solid 2px black;
     padding: .2rem 1rem;
     margin-top: 1.5rem;
+}
+
+/* section 4 */
+
+
+.sezione4 h2 {
+    font-size: 60px;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.sezione4 .col {
+    margin-bottom: 5rem;
+}
+
+.underline-text {
+    text-decoration: underline;
+}
+
+.sezione4 .col img {
+    width: 100%;
+    height: 100%;
+}
+
+.sezione4 h3 {
+    margin-bottom: 1.5rem;
 }
