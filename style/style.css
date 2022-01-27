@@ -457,7 +457,7 @@ h3 {
 .sez6-sdb-text {
     float: left;
     width: 55%;
-    margin: 4rem 0;
+    margin: 6rem 0;
 
 }
 
@@ -471,7 +471,7 @@ h3 {
     float: left;
     width: 45%;
     text-align: right;
-    margin: 4.5rem 0;
+    margin: 6.5rem 0;
 
 }
 
@@ -520,3 +520,45 @@ h3 {
     text-align: center;
 }
 
+/* Footer */
+
+footer {
+    background: black;
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    width: 100%;
+}
+
+.col-footer {
+    float: left;
+    width: 20%;
+    margin-bottom: 5rem;
+}
+
+.col-footer h4 {
+    margin: 2rem 0;
+    font-size: 30px;
+}
+
+.col-footer a {
+    text-decoration: none;
+    color: white;
+    line-height: 1.8rem;
+}
+
+.container-sez1-footer hr {
+    width: 10%;
+}
+
+ footer .lingua {
+    margin-top: 2rem;
+} 
+
+footer hr {
+    border-color: #999999;
+}
+
+footer .lingua {
+    color: #999999;
+}
