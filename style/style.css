@@ -362,3 +362,124 @@ h3 {
 .sezione4 h3 {
     margin-bottom: 1.5rem;
 }
+
+/* section 5 */
+
+.sezione5 h2 {
+    width: 49%;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.sezione5 .par-link-sott {
+    margin: 1.5rem 0;
+}
+
+.sezione5 .dim-clrfx {
+    width: 100%;
+    height: auto;
+}
+
+.sezione5 .sidebar {
+    float: left;
+    width: 30%;
+}
+
+/* .sez5-col {
+    width: 50%;
+    height: 50%; */
+
+
+/* .sez5-col {
+    height: 0;
+    padding-bottom: 50%;
+} */
+
+.sezione5 .content {
+    float: left;
+    width: 40%;
+}
+
+.sezione5 .cont-container {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.sezione5 .sez5-col {
+    float: left;
+    width: 50%;
+}
+
+.sezione5 .content {
+    background: #F5F5F5;
+    overflow: scroll;
+}
+
+.sezione5 .content img {
+    width: 25%;
+    margin-bottom: 1.5rem;
+}
+
+.sezione5 .content hr {
+    width: 10%;
+    margin-bottom: 1.5rem;
+}
+
+.sezione5 .content .cont-text {
+    margin-bottom: 2rem;
+}
+
+.sezione5 .content .cont-author {
+    margin-bottom: 5rem;
+}
+
+.sezione5 .sidebar div {
+    text-align: center;
+}
+
+.sezione5 .sidebar img {
+    width: 50%;
+    height: 50%;
+}
+
+/* section 6 */
+
+.sez6-blu {
+    background: #B4D0E7;
+    height: auto;
+}
+
+.sez6-blu .container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sez6-sdb-text {
+    float: left;
+    width: 55%;
+    margin: 4rem 0;
+
+}
+
+.sez6-sdb-text h2 {
+    color: #61082B;
+    font-size: 50px;
+    text-align: left;
+} 
+
+.sez6-sdb-button {
+    float: left;
+    width: 45%;
+    text-align: right;
+    margin: 4.5rem 0;
+
+}
+
+.sez6-sdb-button a {
+    color: black;
+    text-decoration: none;
+    background: white;
+    padding: .5rem 3rem;
+}
+
+
