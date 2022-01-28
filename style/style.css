@@ -13,7 +13,6 @@ html {
 body {
     width: 100%;
     max-width: 1920px;
-
 }
 
 header {
@@ -25,13 +24,11 @@ header {
     top: 0;    
     background: white;
     z-index: 99;
-
 }
 
  nav,
  .column {
     display: inline-block;
-
 } 
 
 .hd-clrfx::after {
@@ -44,7 +41,6 @@ header {
     height: 4rem;
     padding-left: 1rem;
     width: calc(10% - 1rem);
-
 }
 
 .logo img {
@@ -85,13 +81,13 @@ header {
     margin-right: 1rem;
 
 }
+
 .blue-btn {
     background-color: rgb(24, 117, 255);
     color:white;
     text-decoration: none;
     vertical-align: middle; 
-    padding: .5rem 1rem;
-    
+    padding: .5rem 1rem;    
 }
 
 .dropdown {
@@ -136,6 +132,7 @@ header a {
     border-bottom: solid 2px black;
 }
 
+
 .butt-hov:hover {
     background: rgba(24, 116, 255, 0.8);
 }
@@ -145,7 +142,7 @@ header a {
 .sezione1 {
     background: #B4D0E7;
     width: 100%;
-    height: 830px;
+    height: 870px;
 }
 
 .container-sez1-footer {
@@ -156,7 +153,7 @@ header a {
 
 .tit-sez1 {
     font-size: 90px;
-    padding: 70px 0 40px 0;
+    padding: 110px 0 40px 0;
 }
 
 .clearfix::after {
@@ -173,7 +170,6 @@ clear: both;
 .sez1-right {
     float: right;
     width: calc(70% - 40px);
-
 }
 
 .sez1-right img {
@@ -559,7 +555,6 @@ h3 {
     float: left;
     width: 55%;
     margin: 6rem 0;
-
 }
 
 .sez6-sdb-text h2 {
@@ -594,10 +589,6 @@ h3 {
     margin-bottom: 2.5rem;
 }
 
-.sezione7 p {
-    display: inline-block;
-}
-
 .sez7-lines {
     line-height: 5rem;
 }
@@ -606,8 +597,19 @@ h3 {
     display: inline-block;
 }
 
-.fa-chevron-down {
+.fas {
     vertical-align: middle;
+}
+
+.sezione7 .hidden-text {
+    line-height: 1.2rem;
+    color: #999999;
+    margin-bottom: 1.5rem;
+
+}
+
+.sezione7 .underline {
+    text-decoration: underline;
 }
 
 .sezione7 .p-left {
@@ -619,6 +621,23 @@ h3 {
     float: right;
     width: 10%;
     text-align: center;
+}
+
+.hidden-text,
+.hidden-arrow {
+    display: none;
+}
+
+.sez7-lines:hover .hidden-text {
+    display: inline-block;
+}
+
+.sez7-lines:hover .fa-chevron-down {
+    display: none;
+}
+
+.sez7-lines:hover .hidden-arrow {
+    display: inline-block;
 }
 
 /* Footer */
@@ -648,6 +667,10 @@ footer {
     line-height: 1.8rem;
 }
 
+.col-footer a:hover {
+    text-decoration: underline;
+}
+
 .container-sez1-footer hr {
     width: 10%;
 }
@@ -661,5 +684,10 @@ footer hr {
 }
 
 footer .lingua {
+    color: #999999;
+}
+
+footer .lingua a {
+    text-decoration: none;
     color: #999999;
 }
